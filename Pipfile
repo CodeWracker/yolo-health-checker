@@ -8,6 +8,7 @@ pyyaml = "*"
 numpy = "*"
 matplotlib = "*"
 tqdm = "*"
+pandas = "*"
 
 [dev-packages]
 
