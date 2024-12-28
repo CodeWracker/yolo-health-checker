@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yolo-health-checker"  # nome do pacote, como aparecerá no PyPI
+version = "0.1.0"           # versão inicial do seu pacote
+description = "A tool to numerically analyze the health of a YOLO dataset."
+readme = "README.md"
+authors = [
+  { name="Rodrigo Ferraz Souza", email="dev.rodrigofs@gmail.com" }
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent"
+]
+keywords = ["yolo", "dataset", "analysis"]
+
+# Dependências do seu projeto, se houver
+dependencies = [
+  "pyyaml",
+  "numpy",
+  "matplotlib",
+  "pandas",
+  "tqdm"
+]
+
+[project.urls]
+"Source Code" = "https://github.com/CodeWracker/yolo-health-checker"
+"Bug Tracker" = "https://github.com/CodeWracker/yolo-health-checker/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]

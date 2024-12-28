@@ -112,9 +112,3 @@ To run a sample analysis (outputting both CSV and images):
 ## Contributing
 
 Feel free to open an issue or a pull request if you spot bugs or want to contribute improvements. We welcome new ideas on metrics or enhancements to support more YOLO-format variations.
-
-## License
-
-This project is licensed under an open-source license (e.g., MIT, Apache 2.0, etc.). Check the repository for more details.
-
-Happy analyzing with **yolo-health-checker**!
